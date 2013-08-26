@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<object name="portal_skins" meta_type="Plone Skins Tool" >
+
+  <object name="aansite.theme" meta_type="Filesystem Directory View"
+          directory="aansite.theme:skins/aansite.theme"/>
+  
+  <skin-path name="*">
+     <layer name="aansite.theme" insert-after="custom"/> 
+  </skin-path>
+  
+</object>
+
+  
